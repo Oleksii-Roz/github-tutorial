@@ -156,10 +156,56 @@
         <p>Sequi doloribus voluptate nulla recusandae, aspernatur optio autem fugiat cum laboriosam soluta? Saepe fugit modi sequi, illum aut voluptas distinctio esse placeat incidunt ea quasi libero dolor expedita sed consequuntur ullam rem, molestiae dolore nostrum obcaecati officia aperiam debitis consectetur ipsam? Illo earum nam quibusdam, repellendus architecto facilis iusto doloremque repellat ea nemo odio, non ad consequuntur distinctio dignissimos id quas reiciendis? Iste consequatur temporibus magnam quos quis voluptatum. Delectus impedit commodi est nobis quaerat maiores quidem sed ipsum odio fugiat architecto reiciendis dolore, molestias porro, temporibus ipsa iste perferendis enim ut ullam corrupti deserunt illo quibusdam. Architecto, fuga modi?</p>
         </section>
 
-        <img
-            src="https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg"
-            alt="Macbook Air на сером деревянном столе"
-            width="400"
-        />        
+        <p></p>
+
+        <!--Изображения.
+            src="путь" - обязательный атрибут, указывает адрес изображения. 
+            Путь к картинке может быть абсолютным или относительным.
+            alt="описание" - обязательный атрибут, альтернативное описание.
+            width="значение" и height="значение" - задают размеры изображения в 
+            пикселях. Без задания размеров изображение отображается на странице в 
+            оригинальном размере. Если задать только одну величину, браузер автоматически 
+            вычислит другую для сохранения пропорций.-->
+            <img
+                src="https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg"
+                alt="Macbook Air на сером деревянном столе"
+                width="400"
+            />
+        
+        <p></p>
+
+            <!--Изображение-ссылка
+            Ссылка не обязательно должна быть с текстовыми контентом. Очень часто, особенно в 
+            интернет-магазинах, клик по изображению товара, в списке товаров, перенаправляет 
+            пользователя на страницу этого товара.
+            Для создания изображения-ссылки оборачиваем тег <img> в ссылку.-->
+            <a href="https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/">
+                <img
+                src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?w=640"
+                alt="Рыжий кот"
+                width="640"
+                />
+            </a>
+
+        <p></p>
+
+        <!--Изображение с подписью
+            Такая задача часто встречается в статьях, где много изображений с пояснением под или 
+            над картинкой, например иллюстрации, графики или диаграммы. Если необходимо разметить 
+            изображение с подписью, можно использовать теги <img> и абзац <p>. Но, именно для 
+            таких задач, есть семантические теги <figure> и <figcaption>.   
+            Внутрь <figure> помещаем разметку изображения и описания. Тег <figcaption> обязательно 
+            должен быть первым или последним ребёнком <figure>.-->
+            <figure>
+                <!-- Произвольный графический контент: фотография, график, диаграмма и т. п. -->
+                <figcaption>Текст пояснения который будет над изображением</figcaption>
+                <img 
+                    src="https://images.pexels.com/photos/583842/pexels-photo-583842.jpeg" 
+                    alt="альтернативный текст - айфон и макбук на столе" /
+                    width="720">
+                <figcaption>Текст пояснения который будет под изображением</figcaption>
+            </figure>
+
+        <p></p>
 </body>
 </html>
