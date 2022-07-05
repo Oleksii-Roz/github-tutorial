@@ -1,6 +1,9 @@
+:root {
+  --my-color: rgb(219, 152, 8);
+}
 body {
-  /* background-color: rgb(109, 109, 109); */
-  color: #2a2a2a;
+  background-color: rgb(109, 109, 109);
+  color: #000000;
 }
 
 .accent {
