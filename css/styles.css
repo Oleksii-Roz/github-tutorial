@@ -30,6 +30,7 @@ body {
 .my-test {
 	color: black;
 }
+
 .my-test:hover,
 .my-test:focus {
 	color: blue;
