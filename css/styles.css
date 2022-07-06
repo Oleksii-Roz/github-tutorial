@@ -35,6 +35,7 @@ body {
 .my-test:focus {
 	color: blue;
 }
+
 .my-test:active {
 	color: red;
 }
