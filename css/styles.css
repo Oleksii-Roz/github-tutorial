@@ -1,0 +1,28 @@
+:root {
+  --my-color: rgb(219, 152, 8);
+}
+body {
+  background-color: rgb(109, 109, 109);
+  color: #000000;
+}
+
+.accent {
+  color: #2196f3;
+}
+
+.social-links .link {
+  color: teal;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  color: yellow;
+}
+
+.social-links .link:active {
+  color: red;
+}
+
+.social-links .link:visited {
+  color: green;
+}
